@@ -1,8 +1,10 @@
 # 백준 10829 이진수 변환
 
+
 # 재귀함수 사용하지 않음
 N = int(input())
 print(bin(N)[2:])
+
 
 # 재귀함수 사용
 def to_bin(num):
